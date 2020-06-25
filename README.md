@@ -1,4 +1,8 @@
 
+YandexMapKit-iOS-Carthage-Demo
+Carthage Demo for:
+https://github.com/yandex/mapkit-ios-demo
+
 # How to build the app:
 
 1. Make sure Xcode installed on your Mac.
