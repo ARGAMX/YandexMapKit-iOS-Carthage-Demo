@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DoM-L7-dIj">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MapVC-->
+        <scene sceneID="cVQ-Zp-HX2">
+            <objects>
+                <viewController storyboardIdentifier="ClinicsListViewControllerID" id="DoM-L7-dIj" customClass="MapVC" customModule="YandexMapKitApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZNt-6u-2Vg"/>
+                        <viewControllerLayoutGuide type="bottom" id="BJ2-gK-lXB"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="AB5-tJ-wVm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kwD-Dv-hWp" customClass="YMKMapView">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97647058823529409" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kwD-Dv-hWp" secondAttribute="trailing" id="6RO-Tw-fp6"/>
+                            <constraint firstItem="kwD-Dv-hWp" firstAttribute="leading" secondItem="AB5-tJ-wVm" secondAttribute="leading" id="83S-tK-dex"/>
+                            <constraint firstItem="BJ2-gK-lXB" firstAttribute="top" secondItem="kwD-Dv-hWp" secondAttribute="bottom" id="FFk-wa-G42"/>
+                            <constraint firstItem="kwD-Dv-hWp" firstAttribute="top" secondItem="ZNt-6u-2Vg" secondAttribute="bottom" id="s4c-0t-V7M"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="2Rb-A6-f0S"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="mapView" destination="kwD-Dv-hWp" id="ZsU-g2-jgT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BMp-xy-bik" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1973.5999999999999" y="-532.98350824587715"/>
+        </scene>
+    </scenes>
+</document>
