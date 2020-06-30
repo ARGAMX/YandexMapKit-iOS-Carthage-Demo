@@ -12,7 +12,6 @@
 		110D03982382B1890074ABB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D03972382B1890074ABB2 /* AppDelegate.swift */; };
 		110F777D2382C7A700FC3FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110F77772382C70E00FC3FF4 /* Assets.xcassets */; };
 		110F77842382C87A00FC3FF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110F77822382C87A00FC3FF4 /* LaunchScreen.storyboard */; };
-		1172A04824A4D79200FE3C19 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C8B3FF2444DD2E006CE2B2 /* GoogleDataTransport.framework */; };
 		11AFCF4F2444B8C400E65F97 /* YandexMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFCF4C2444B87E00E65F97 /* YandexMapKit.framework */; };
 		11AFCF542444BE9500E65F97 /* YandexRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AFCF532444BE9400E65F97 /* YandexRuntime.framework */; };
 /* End PBXBuildFile section */
@@ -27,7 +26,6 @@
 		110F77822382C87A00FC3FF4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11AFCF4C2444B87E00E65F97 /* YandexMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YandexMapKit.framework; path = Carthage/Build/iOS/YandexMaps/YandexMapKit.framework; sourceTree = "<group>"; };
 		11AFCF532444BE9400E65F97 /* YandexRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YandexRuntime.framework; path = Carthage/Build/iOS/YandexMaps/YandexRuntime.framework; sourceTree = "<group>"; };
-		11C8B3FF2444DD2E006CE2B2 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleDataTransport.framework; path = Carthage/Build/iOS/GoogleDataTransport.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +34,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				11AFCF4F2444B8C400E65F97 /* YandexMapKit.framework in Frameworks */,
-				1172A04824A4D79200FE3C19 /* GoogleDataTransport.framework in Frameworks */,
 				11AFCF542444BE9500E65F97 /* YandexRuntime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +98,6 @@
 		11B72C1C2383BFD700613C48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				11C8B3FF2444DD2E006CE2B2 /* GoogleDataTransport.framework */,
 				11AFCF4C2444B87E00E65F97 /* YandexMapKit.framework */,
 				11AFCF532444BE9400E65F97 /* YandexRuntime.framework */,
 			);

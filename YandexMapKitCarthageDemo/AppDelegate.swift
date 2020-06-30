@@ -7,8 +7,10 @@
 //
 
 import UIKit
-import CoreLocation
 import YandexMapKit
+import CoreLocation
+import CoreTelephony
+import SystemConfiguration
 
 
 @UIApplicationMain
