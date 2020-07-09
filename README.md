@@ -1,7 +1,13 @@
 
 YandexMapKit-iOS-Carthage-Demo
 Carthage Demo for:
+
 https://github.com/yandex/mapkit-ios-demo
+
+
+Original problem discussion:
+
+https://github.com/yandex/mapkit-ios-demo/issues/76
 
 # How to build the app:
 
